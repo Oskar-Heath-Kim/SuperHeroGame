@@ -29,4 +29,11 @@ public class Superhero {
     String superHeroDetails = "Superhero details \n" + "name: " + name + "\ncostume: " + costume + "\nweapon: " + weapon + "\nlife: " + life + "\nweapon strength: " + weaponStrength + "\n";
     return superHeroDetails;
   }
+
+  public String getWeapon(){
+    return this.weapon;
+  }
+
+
+
 }
