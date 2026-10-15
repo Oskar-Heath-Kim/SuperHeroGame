@@ -34,6 +34,8 @@ public class Superhero {
     return this.weapon;
   }
 
-
+  public int getWeaponStrength(){
+    return this.weaponStrength;
+  }
 
 }
