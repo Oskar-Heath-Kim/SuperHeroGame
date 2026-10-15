@@ -7,9 +7,9 @@ public class Superhero {
 
   // TODO #1: Add missing constructors. Note that the life attribute should default to true and the weaponStrength attribute should default to 0.
   public Superhero(String name, String costume, String weapon){
-    this.name = "unknown";
-    this.costume = "none";
-    this.weapon = "none";
+    this.name = name;
+    this.costume = costume;
+    this.weapon = weapon;
     this.life = true;
     this.weaponStrength = 0;
   }
@@ -19,14 +19,8 @@ public class Superhero {
   }
   // TODO #3: Including a toString() method (see topic 1.15 Strings in the CSAwesome2 textbook) to help with printing out the Superhero details.
   public String toString(){
-    System.out.println("Superhero Details");
-    System.out.println("name: " + name);
-    System.out.println("costume: " + costume);
-    System.out.println("weapon: " + weapon);
-    System.out.println("life: " + life.toString());
-    System.out.println("weaponStrength: " + weaponStrength.toString());
   // all your code below to create a string with details
-    String superHeroDetails = "";
+    String superHeroDetails = "Superhero details \n" + "name: " + name + "\ncostume: " + costume + "\nweapon: " + weapon + "\nlife: " + life + "\nweapon strength: " + weaponStrength + "\n";
     return superHeroDetails;
   }
 }
