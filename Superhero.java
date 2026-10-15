@@ -13,7 +13,11 @@ public class Superhero {
     this.weaponStrength = (int)(Math.random() * 10) + 1;
   }
 
-  public Superhero(int weaponStrength){
+  public Superhero(String name, String costume, String weapon, int weaponStrength){
+    this.name = name;
+    this.costume = costume;
+    this.weapon = weapon;
+    this.life = true;
     this.weaponStrength = weaponStrength;
   }
 
