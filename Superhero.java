@@ -38,4 +38,8 @@ public class Superhero {
     return this.weaponStrength;
   }
 
+  public String getName(){
+    return this.name;
+  }
+
 }
