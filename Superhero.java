@@ -12,6 +12,11 @@ public class Superhero {
     this.life = true;
     this.weaponStrength = (int)(Math.random() * 10) + 1;
   }
+
+  public Superhero(int weaponStrength){
+    this.weaponStrength = weaponStrength;
+  }
+
   void loseLife(){
     life = false;
   }
