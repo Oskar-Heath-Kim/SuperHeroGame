@@ -38,6 +38,10 @@ public class Superhero {
     return superHeroDetails;
   }
 
+  public int specialAttack(int powerLevel){
+    return this.weaponStrength + (int)(Math.random() * powerLevel) + 1;
+  }
+
   public String getWeapon(){
     return this.weapon;
   }
