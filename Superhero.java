@@ -5,6 +5,14 @@ public class Superhero {
   private boolean life;
   private int weaponStrength;
 
+  public Superhero(){
+    this.name = "No Name";
+    this.costume = "a t-shirt";
+    this.weapon = "fist";
+    this.life = true;
+    this.weaponStrength = 0;
+  }
+
   public Superhero(String name, String costume, String weapon){
     this.name = name;
     this.costume = costume;
