@@ -20,7 +20,8 @@ public class Main {
     System.out.println(superheroFight(spiderman1, batman1));
 
     Superhero placeholder = new Superhero();
-
+    Superhero batman = new Superhero("Batman", "Batsuit","Batarang");
+    Superhero spiderman = new Superhero();
 
   }
 
