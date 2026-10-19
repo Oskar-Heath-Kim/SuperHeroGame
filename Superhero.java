@@ -46,6 +46,10 @@ public class Superhero {
     this.weaponStrength = ((int)(Math.random() * 10) + 1);
   }
 
+  public void setWeaponStrength(int weaponStrength){
+    this.weaponStrength = weaponStrength;
+  }
+
   public String getWeapon(){
     return this.weapon;
   }
