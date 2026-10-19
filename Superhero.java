@@ -42,8 +42,8 @@ public class Superhero {
     return this.weaponStrength + (int)(Math.random() * powerLevel) + 1;
   }
 
-  public int setWeaponStrength(){
-    return -1;
+  public void setWeaponStrength(){
+    this.weaponStrength = ((int)(Math.random() * 10) + 1);
   }
 
   public String getWeapon(){
