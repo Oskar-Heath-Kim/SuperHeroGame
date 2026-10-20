@@ -22,8 +22,12 @@ public class Main {
     Superhero placeholder = new Superhero();
     Superhero batman = new Superhero("Batman", "Batsuit","Batarang");
     Superhero spiderman = new Superhero("Spiderman", "Redsuit","Superweb");
-    System.out.println(spiderman.toString());
+    //System.out.println(spiderman.toString());
     System.out.println(batman.toString());
+
+    spiderman.loseLife();
+    System.out.println("The Green Goblin shows up...");
+    System.out.println(spiderman.toString());
   }
 
 }
