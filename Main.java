@@ -33,8 +33,8 @@ public class Main {
     placeholder.specialAttack(9001);
     System.out.println(superheroFight(batman, placeholder));
 
-    System.out.println(batman.getName() + " uses his special attack and deals " + " damage.");//what is batman special?
-    System.out.println(placeholder.name + " uses his special attack and deals " + " damage."); 
+    System.out.println(batman.getName() + " uses his special attack and deals " + batman.getWeaponStrength() + " damage.");//what is batman special?
+    System.out.println(placeholder.getName() + " uses his special attack and deals " + placeholder.getWeaponStrength() + " damage."); 
   }
 
 }
