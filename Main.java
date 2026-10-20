@@ -17,7 +17,7 @@ public class Main {
     Superhero batman1 = new Superhero("Batman", "Batsuit", "Super Strength");
     spiderman1.loseLife();
     System.out.println(batman1);
-    System.out.println(superheroFight(spiderman1, batman1));
+    //System.out.println(superheroFight(spiderman1, batman1));
 
     Superhero placeholder = new Superhero();
     Superhero batman = new Superhero("Batman", "Batsuit","Batarang");
@@ -28,6 +28,10 @@ public class Main {
     spiderman.loseLife();
     System.out.println("The Green Goblin shows up...");
     System.out.println(spiderman.toString());
+
+    batman.specialAttack(4);
+    placeholder.specialAttack(9001);
+    System.out.println(superheroFight(batman, placeholder));
   }
 
 }
